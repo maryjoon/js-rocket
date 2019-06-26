@@ -1,3 +1,6 @@
+var sayMyName = function(name) {
+	alert('My name is: '+name);
+};
 var car = {   //liste von variablen mit eigenschaften und funktionen mit methoden
 			make: 'VW',
 			type: 'Polo',
