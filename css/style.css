@@ -1,3 +1,17 @@
 body {
-	background-color: grey;
+	background-color: lightblue;
+}
+a {
+	text-decoration: none;
+	border: thin dashed white;
+	color: white;
+	padding:0.5em;
+}
+a:hover {
+	border: thin dashed blue;
+	color: blue;
+}
+h1 {
+	color: white;
+	padding-bottom:1em;
 }
