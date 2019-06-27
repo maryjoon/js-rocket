@@ -1,5 +1,6 @@
 body {
 	background-color: lightblue;
+	color: lightblue;
 }
 a {
 	text-decoration: none;
@@ -14,4 +15,17 @@ a:hover {
 h1 {
 	color: white;
 	padding-bottom:1em;
+}
+section {
+	width: 6em;
+	height: 6em;
+	border-radius: 5em;
+	background-color: white;
+	transition: background-color 5s;
+	margin-top:2em;
+	padding:1em;
+	text-align: center;
+}
+.blue {
+	background-color: blue;
 }
