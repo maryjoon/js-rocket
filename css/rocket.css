@@ -39,7 +39,11 @@ h1 {
 	background-color: blue;
 	transition: bottom 10000ms;
 }
-body.bodystate3 .rocket {
+body.bodystate1 .rocket {
+	transition: none;
+}
+body.bodystate3 .rocket,
+body.bodystate4 .rocket {
 	bottom: 100em;
 }
 
@@ -51,6 +55,7 @@ body.bodystate2 .state2 { display: block; }
 body.bodystate3 .state3 { display: block; }
 body.bodystate4 .state4 { display: block; }
 body.bodystate5 .state5 { display: block; }
+
 .ground {
 	position: absolute;
 	left: 0;
