@@ -1,0 +1,62 @@
+button, p, a, h1 {
+	margin: 1em;
+}
+.left {
+position: fixed;
+background-color: blue;
+width: 50%;
+height: 100%;
+top: 0;
+left: 0; 
+}
+.right {
+position: fixed;
+background-color: lightblue;
+width: 50%;
+height: 100%;
+top: 0;
+right: 0;
+}
+button {
+	background-color: white;
+	color: blue;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+a {
+
+}
+h1 {
+	color: white;
+	text-transform: uppercase;
+}
+.rocket {
+	position: absolute;
+	left: 50%;
+	bottom:2em;
+	width: 2em;
+	height: 10em;
+	background-color: blue;
+	transition: bottom 10000ms;
+}
+body.bodystate3 .rocket {
+	bottom: 100em;
+}
+
+.state1, .state2, .state3, .state4, .state5 {
+	display:none;
+}
+body.bodystate1 .state1 { display: block; }
+body.bodystate2 .state2 { display: block; }
+body.bodystate3 .state3 { display: block; }
+body.bodystate4 .state4 { display: block; }
+body.bodystate5 .state5 { display: block; }
+.ground {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: lightgreen;
+	height: 2em;
+
+}
